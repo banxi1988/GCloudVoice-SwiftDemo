@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EE06F611EDF923D00E833B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE06F601EDF923D00E833B9 /* AppDelegate.swift */; };
+		3EE06F631EDF923D00E833B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE06F621EDF923D00E833B9 /* ViewController.swift */; };
+		3EE06F661EDF923D00E833B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE06F641EDF923D00E833B9 /* Main.storyboard */; };
+		3EE06F681EDF923D00E833B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE06F671EDF923D00E833B9 /* Assets.xcassets */; };
+		3EE06F6B1EDF923D00E833B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE06F691EDF923D00E833B9 /* LaunchScreen.storyboard */; };
+		3EE06F761EDF923D00E833B9 /* GCloudVoice_SwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE06F751EDF923D00E833B9 /* GCloudVoice_SwiftDemoTests.swift */; };
+		3EE06F7E1EDF925F00E833B9 /* GCloudVoice.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3EE06F561EDF138400E833B9 /* GCloudVoice.bundle */; };
+		3EE06F7F1EDF926200E833B9 /* libGCloudVoice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE06F571EDF138500E833B9 /* libGCloudVoice.a */; };
+		3EE06F8C1EDF971600E833B9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE06F8B1EDF971600E833B9 /* AudioToolbox.framework */; };
+		3EE06F8E1EDF971E00E833B9 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE06F8D1EDF971E00E833B9 /* CoreAudio.framework */; };
+		3EE06F901EDF972700E833B9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE06F8F1EDF972700E833B9 /* AVFoundation.framework */; };
+		3EE06F921EDF973000E833B9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE06F911EDF973000E833B9 /* CoreTelephony.framework */; };
+		3EE06F941EDF973A00E833B9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE06F931EDF973A00E833B9 /* SystemConfiguration.framework */; };
+		3EE06F981EDF981C00E833B9 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE06F971EDF981C00E833B9 /* libstdc++.6.0.9.tbd */; };
+		3EE06F9F1EDF996100E833B9 /* GCloudVoiceWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3EE06F9E1EDF996100E833B9 /* GCloudVoiceWrapper.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EE06F721EDF923D00E833B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EE06F331EDF134D00E833B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EE06F5D1EDF923D00E833B9;
+			remoteInfo = "GCloudVoice-SwiftDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EE06F4A1EDF134E00E833B9 /* GCloudVoice_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCloudVoice_SwiftTests.swift; sourceTree = "<group>"; };
+		3EE06F4C1EDF134E00E833B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE06F561EDF138400E833B9 /* GCloudVoice.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GCloudVoice.bundle; sourceTree = "<group>"; };
+		3EE06F571EDF138500E833B9 /* libGCloudVoice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGCloudVoice.a; sourceTree = "<group>"; };
+		3EE06F5E1EDF923D00E833B9 /* GCloudVoice-SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GCloudVoice-SwiftDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE06F601EDF923D00E833B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EE06F621EDF923D00E833B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EE06F651EDF923D00E833B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EE06F671EDF923D00E833B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EE06F6A1EDF923D00E833B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EE06F6C1EDF923D00E833B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE06F711EDF923D00E833B9 /* GCloudVoice-SwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GCloudVoice-SwiftDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE06F751EDF923D00E833B9 /* GCloudVoice_SwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCloudVoice_SwiftDemoTests.swift; sourceTree = "<group>"; };
+		3EE06F771EDF923D00E833B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE06F801EDF934C00E833B9 /* GCloudVoice-SwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GCloudVoice-SwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		3EE06F841EDF93D400E833B9 /* GCloudVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCloudVoice.h; sourceTree = "<group>"; };
+		3EE06F851EDF93D400E833B9 /* GCloudVoiceErrno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCloudVoiceErrno.h; sourceTree = "<group>"; };
+		3EE06F861EDF93D400E833B9 /* GCloudVoiceExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCloudVoiceExtension.h; sourceTree = "<group>"; };
+		3EE06F871EDF93D400E833B9 /* GCloudVoiceVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCloudVoiceVersion.h; sourceTree = "<group>"; };
+		3EE06F891EDF953C00E833B9 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		3EE06F8B1EDF971600E833B9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3EE06F8D1EDF971E00E833B9 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		3EE06F8F1EDF972700E833B9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3EE06F911EDF973000E833B9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3EE06F931EDF973A00E833B9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3EE06F951EDF976100E833B9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3EE06F971EDF981C00E833B9 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		3EE06F9D1EDF996100E833B9 /* GCloudVoiceWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCloudVoiceWrapper.h; sourceTree = "<group>"; };
+		3EE06F9E1EDF996100E833B9 /* GCloudVoiceWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GCloudVoiceWrapper.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EE06F5B1EDF923D00E833B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE06F981EDF981C00E833B9 /* libstdc++.6.0.9.tbd in Frameworks */,
+				3EE06F941EDF973A00E833B9 /* SystemConfiguration.framework in Frameworks */,
+				3EE06F921EDF973000E833B9 /* CoreTelephony.framework in Frameworks */,
+				3EE06F901EDF972700E833B9 /* AVFoundation.framework in Frameworks */,
+				3EE06F8E1EDF971E00E833B9 /* CoreAudio.framework in Frameworks */,
+				3EE06F8C1EDF971600E833B9 /* AudioToolbox.framework in Frameworks */,
+				3EE06F7F1EDF926200E833B9 /* libGCloudVoice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE06F6E1EDF923D00E833B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EE06F321EDF134D00E833B9 = {
+			isa = PBXGroup;
+			children = (
+				3EE06F491EDF134E00E833B9 /* GCloudVoice-SwiftTests */,
+				3EE06F5F1EDF923D00E833B9 /* GCloudVoice-SwiftDemo */,
+				3EE06F741EDF923D00E833B9 /* GCloudVoice-SwiftDemoTests */,
+				3EE06F3D1EDF134D00E833B9 /* Products */,
+				3EE06F881EDF953C00E833B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3EE06F3D1EDF134D00E833B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EE06F5E1EDF923D00E833B9 /* GCloudVoice-SwiftDemo.app */,
+				3EE06F711EDF923D00E833B9 /* GCloudVoice-SwiftDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EE06F3E1EDF134D00E833B9 /* GCloudVoice */ = {
+			isa = PBXGroup;
+			children = (
+				3EE06F841EDF93D400E833B9 /* GCloudVoice.h */,
+				3EE06F851EDF93D400E833B9 /* GCloudVoiceErrno.h */,
+				3EE06F861EDF93D400E833B9 /* GCloudVoiceExtension.h */,
+				3EE06F871EDF93D400E833B9 /* GCloudVoiceVersion.h */,
+				3EE06F561EDF138400E833B9 /* GCloudVoice.bundle */,
+				3EE06F571EDF138500E833B9 /* libGCloudVoice.a */,
+			);
+			name = GCloudVoice;
+			path = "../GCloudVoice-Swift";
+			sourceTree = "<group>";
+		};
+		3EE06F491EDF134E00E833B9 /* GCloudVoice-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EE06F4A1EDF134E00E833B9 /* GCloudVoice_SwiftTests.swift */,
+				3EE06F4C1EDF134E00E833B9 /* Info.plist */,
+			);
+			path = "GCloudVoice-SwiftTests";
+			sourceTree = "<group>";
+		};
+		3EE06F5F1EDF923D00E833B9 /* GCloudVoice-SwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3EE06F3E1EDF134D00E833B9 /* GCloudVoice */,
+				3EE06F601EDF923D00E833B9 /* AppDelegate.swift */,
+				3EE06F621EDF923D00E833B9 /* ViewController.swift */,
+				3EE06F641EDF923D00E833B9 /* Main.storyboard */,
+				3EE06F671EDF923D00E833B9 /* Assets.xcassets */,
+				3EE06F691EDF923D00E833B9 /* LaunchScreen.storyboard */,
+				3EE06F6C1EDF923D00E833B9 /* Info.plist */,
+				3EE06F801EDF934C00E833B9 /* GCloudVoice-SwiftDemo-Bridging-Header.h */,
+				3EE06F9D1EDF996100E833B9 /* GCloudVoiceWrapper.h */,
+				3EE06F9E1EDF996100E833B9 /* GCloudVoiceWrapper.mm */,
+			);
+			path = "GCloudVoice-SwiftDemo";
+			sourceTree = "<group>";
+		};
+		3EE06F741EDF923D00E833B9 /* GCloudVoice-SwiftDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EE06F751EDF923D00E833B9 /* GCloudVoice_SwiftDemoTests.swift */,
+				3EE06F771EDF923D00E833B9 /* Info.plist */,
+			);
+			path = "GCloudVoice-SwiftDemoTests";
+			sourceTree = "<group>";
+		};
+		3EE06F881EDF953C00E833B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EE06F971EDF981C00E833B9 /* libstdc++.6.0.9.tbd */,
+				3EE06F951EDF976100E833B9 /* libc++.tbd */,
+				3EE06F931EDF973A00E833B9 /* SystemConfiguration.framework */,
+				3EE06F911EDF973000E833B9 /* CoreTelephony.framework */,
+				3EE06F8F1EDF972700E833B9 /* AVFoundation.framework */,
+				3EE06F8D1EDF971E00E833B9 /* CoreAudio.framework */,
+				3EE06F8B1EDF971600E833B9 /* AudioToolbox.framework */,
+				3EE06F891EDF953C00E833B9 /* libstdc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EE06F5D1EDF923D00E833B9 /* GCloudVoice-SwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EE06F781EDF923D00E833B9 /* Build configuration list for PBXNativeTarget "GCloudVoice-SwiftDemo" */;
+			buildPhases = (
+				3EE06F5A1EDF923D00E833B9 /* Sources */,
+				3EE06F5B1EDF923D00E833B9 /* Frameworks */,
+				3EE06F5C1EDF923D00E833B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GCloudVoice-SwiftDemo";
+			productName = "GCloudVoice-SwiftDemo";
+			productReference = 3EE06F5E1EDF923D00E833B9 /* GCloudVoice-SwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EE06F701EDF923D00E833B9 /* GCloudVoice-SwiftDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EE06F7B1EDF923D00E833B9 /* Build configuration list for PBXNativeTarget "GCloudVoice-SwiftDemoTests" */;
+			buildPhases = (
+				3EE06F6D1EDF923D00E833B9 /* Sources */,
+				3EE06F6E1EDF923D00E833B9 /* Frameworks */,
+				3EE06F6F1EDF923D00E833B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EE06F731EDF923D00E833B9 /* PBXTargetDependency */,
+			);
+			name = "GCloudVoice-SwiftDemoTests";
+			productName = "GCloudVoice-SwiftDemoTests";
+			productReference = 3EE06F711EDF923D00E833B9 /* GCloudVoice-SwiftDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EE06F331EDF134D00E833B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BetaGo;
+				TargetAttributes = {
+					3EE06F5D1EDF923D00E833B9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = QQFZ2M2M7Y;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					3EE06F701EDF923D00E833B9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EE06F5D1EDF923D00E833B9;
+					};
+				};
+			};
+			buildConfigurationList = 3EE06F361EDF134D00E833B9 /* Build configuration list for PBXProject "GCloudVoice-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EE06F321EDF134D00E833B9;
+			productRefGroup = 3EE06F3D1EDF134D00E833B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EE06F5D1EDF923D00E833B9 /* GCloudVoice-SwiftDemo */,
+				3EE06F701EDF923D00E833B9 /* GCloudVoice-SwiftDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EE06F5C1EDF923D00E833B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE06F6B1EDF923D00E833B9 /* LaunchScreen.storyboard in Resources */,
+				3EE06F681EDF923D00E833B9 /* Assets.xcassets in Resources */,
+				3EE06F7E1EDF925F00E833B9 /* GCloudVoice.bundle in Resources */,
+				3EE06F661EDF923D00E833B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE06F6F1EDF923D00E833B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EE06F5A1EDF923D00E833B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE06F9F1EDF996100E833B9 /* GCloudVoiceWrapper.mm in Sources */,
+				3EE06F631EDF923D00E833B9 /* ViewController.swift in Sources */,
+				3EE06F611EDF923D00E833B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE06F6D1EDF923D00E833B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE06F761EDF923D00E833B9 /* GCloudVoice_SwiftDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EE06F731EDF923D00E833B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EE06F5D1EDF923D00E833B9 /* GCloudVoice-SwiftDemo */;
+			targetProxy = 3EE06F721EDF923D00E833B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EE06F641EDF923D00E833B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EE06F651EDF923D00E833B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EE06F691EDF923D00E833B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EE06F6A1EDF923D00E833B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EE06F4E1EDF134E00E833B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3EE06F4F1EDF134E00E833B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3EE06F791EDF923D00E833B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = QQFZ2M2M7Y;
+				INFOPLIST_FILE = "GCloudVoice-SwiftDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GCloudVoice-Swift",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.betago.GCloudVoice-SwiftDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GCloudVoice-SwiftDemo/GCloudVoice-SwiftDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		3EE06F7A1EDF923D00E833B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = QQFZ2M2M7Y;
+				INFOPLIST_FILE = "GCloudVoice-SwiftDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GCloudVoice-Swift",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.betago.GCloudVoice-SwiftDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GCloudVoice-SwiftDemo/GCloudVoice-SwiftDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+		3EE06F7C1EDF923D00E833B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GCloudVoice-SwiftDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.betago.GCloudVoice-SwiftDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCloudVoice-SwiftDemo.app/GCloudVoice-SwiftDemo";
+			};
+			name = Debug;
+		};
+		3EE06F7D1EDF923D00E833B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GCloudVoice-SwiftDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.betago.GCloudVoice-SwiftDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCloudVoice-SwiftDemo.app/GCloudVoice-SwiftDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EE06F361EDF134D00E833B9 /* Build configuration list for PBXProject "GCloudVoice-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE06F4E1EDF134E00E833B9 /* Debug */,
+				3EE06F4F1EDF134E00E833B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EE06F781EDF923D00E833B9 /* Build configuration list for PBXNativeTarget "GCloudVoice-SwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE06F791EDF923D00E833B9 /* Debug */,
+				3EE06F7A1EDF923D00E833B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EE06F7B1EDF923D00E833B9 /* Build configuration list for PBXNativeTarget "GCloudVoice-SwiftDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE06F7C1EDF923D00E833B9 /* Debug */,
+				3EE06F7D1EDF923D00E833B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EE06F331EDF134D00E833B9 /* Project object */;
+}
