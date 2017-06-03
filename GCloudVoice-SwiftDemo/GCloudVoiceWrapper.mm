@@ -15,43 +15,77 @@ namespace gcloud_voice {
 
 class GCloudVoiceNotifyImpl:public gcloud_voice::IGCloudVoiceNotify{
 public:
-  GCloudVoiceNotifyImpl();
-public:
   id<GCloudVoiceNotify> delegate;
 
   void OnJoinRoom(gcloud_voice::GCloudVoiceCompleteCode code, const char *roomName, int memberID){
+    if(delegate == NULL){
+      NSLog(@"CGCloudVoiceNotify delegate was null");
+      return;
+    }
     [delegate OnJoinRoom:(CompleteCode)code  roomName:roomName memberID:memberID];
   }
 
   void OnQuitRoom(GCloudVoiceCompleteCode code, const char *roomName){
+    if(delegate == NULL){
+      NSLog(@"CGCloudVoiceNotify delegate was null");
+      return;
+    }
     [delegate OnQuitRoom:(CompleteCode)code roomName:roomName];
   }
 
   void OnMemberVoice(const unsigned int *members, int count){
+    if(delegate == NULL){
+      NSLog(@"CGCloudVoiceNotify delegate was null");
+      return;
+    }
     [delegate OnMemberVoice:members count:count];
   }
 
   void OnUploadFile(GCloudVoiceCompleteCode code, const char *filePath, const char *fileID){
+    if(delegate == NULL){
+      NSLog(@"CGCloudVoiceNotify delegate was null");
+      return;
+    }
     [delegate OnUploadFile:(CompleteCode)code filePath:filePath fileID:fileID];
   }
 
   void OnDownloadFile(GCloudVoiceCompleteCode code, const char *filePath, const char *fileID){
+    if(delegate == NULL){
+      NSLog(@"CGCloudVoiceNotify delegate was null");
+      return;
+    }
     [delegate OnDownloadFile:(CompleteCode)code filePath:filePath fileID:fileID];
   }
 
   void OnPlayRecordedFile(GCloudVoiceCompleteCode code,const char *filePath){
+    if(delegate == NULL){
+      NSLog(@"CGCloudVoiceNotify delegate was null");
+      return;
+    }
     [delegate OnPlayRecordedFile:(CompleteCode)code filePath:filePath];
   }
 
   void OnApplyMessageKey(GCloudVoiceCompleteCode code){
+    if(delegate == NULL){
+      NSLog(@"CGCloudVoiceNotify delegate was null");
+      return;
+    }
     [delegate OnApplyMessageKey:(CompleteCode)code];
   }
 
   void OnSpeechToText(GCloudVoiceCompleteCode code, const char *fileID, const char *result){
+    if(delegate == NULL){
+      NSLog(@"CGCloudVoiceNotify delegate was null");
+      return;
+    }
     [delegate OnSpeechToText:(CompleteCode)code fileID:fileID result:result];
   }
 
   void OnRecording(const unsigned char* pAudioData, unsigned int nDataLength){
+    if(delegate == NULL){
+      NSLog(@"CGCloudVoiceNotify delegate was null");
+      return;
+    }
     [delegate OnRecording:pAudioData nDataLength:nDataLength];
   }
   
